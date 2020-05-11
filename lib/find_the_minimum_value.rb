@@ -1,5 +1,5 @@
 def find_min_value(array)
-  min_value = -1
+  min_value = array[0]
   
   array.size.times do |index|
     if array[index] < min_value
